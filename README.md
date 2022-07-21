@@ -1,7 +1,3 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
 ## Setup
 
 Make sure to install the dependencies:
@@ -39,4 +35,6 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## API
+
+[the Cat API](https://thecatapi.com/)
