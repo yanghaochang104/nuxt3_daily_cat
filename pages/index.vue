@@ -1,6 +1,13 @@
 <template>
-  <h1>I am a big fat cat</h1>
-  <img src="@/assets/fat_cat.jpeg" alt="fat-cat" />
+  <div class="home-container">
+    <span>
+      <h1 class="home-title">Daily Cat</h1>
+    </span>
+    <img src="@/assets/fat_cat.jpeg" alt="fat-cat" class="cat-img" />
+    <span>
+      <h3>I am a big big big fat cat ฅ (≈ >ܫ&lt; ≈) ฅ</h3>
+    </span>
+  </div>
 </template>
 <script>
 export default {
@@ -18,3 +25,14 @@ export default {
   },
 };
 </script>
+<style>
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-title {
+  color: #526488;
+}
+</style>
