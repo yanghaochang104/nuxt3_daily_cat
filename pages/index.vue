@@ -3,7 +3,13 @@
     <span>
       <h1 class="home-title">Daily Cat</h1>
     </span>
-    <img src="@/assets/fat_cat.jpeg" alt="fat-cat" class="cat-img" />
+    <img
+      src="@/assets/fat_cat.jpeg"
+      alt="fat-cat"
+      class="cat-img"
+      width="470"
+      height="550"
+    />
     <span>
       <h3>I am a big big big fat cat ฅ (≈ >ܫ&lt; ≈) ฅ</h3>
     </span>
@@ -30,7 +36,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .home-title {
   color: #526488;

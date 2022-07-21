@@ -45,5 +45,6 @@ ul {
   background: #fff;
 }
 .wrapper {
+  padding: 1rem;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>About</h1>
+    <h1 class="about-title">About</h1>
     <p>興趣使然的愛貓工程師</p>
   </div>
 </template>
@@ -16,3 +16,8 @@ useHead({
   ],
 });
 </script>
+<style>
+.about-title {
+  color: #526488;
+}
+</style>

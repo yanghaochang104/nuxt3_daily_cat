@@ -1,14 +1,16 @@
 <template>
   <div>
-    <h1>Cat-binet</h1>
-    <div v-for="(cat, index) in cats" :key="cat.id">
-      <nuxt-link :to="'cats/' + cat.id">
-        <img
-          :src="cat.url"
-          :width="400"
-          :height="(cat.height * 400) / cat.width"
-        />
-      </nuxt-link>
+    <h1 style="color: #526488">Cat-binet</h1>
+    <div>
+      <div v-for="(cat, index) in cats" :key="cat.id">
+        <nuxt-link :to="'cats/' + cat.id">
+          <img
+            :src="cat.url"
+            :width="400"
+            :height="(cat.height * 400) / cat.width"
+          />
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
